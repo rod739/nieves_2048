@@ -1,0 +1,16 @@
+NIEVES 2048 - estructura inicial
+
+1. flutter create nieves_2048
+2. Copia ENCIMA las carpetas lib/ y test/ de este zip (reemplaza).
+3. Borra test/widget_test.dart
+4. NO toques pubspec.yaml (no necesita paquetes extra).
+
+Ya incluido:
+  test/motor_2048_test.dart  -> con las pruebas de la Ronda 1
+  lib/logica/  y  lib/presentation/  -> carpetas vacías (puedes borrar los archivos .mantener)
+
+Se crean durante las rondas:
+  lib/logica/motor_2048.dart      (Rondas 1-3)
+  lib/logica/grid.dart            (Rondas 4-9)  + test/grid_test.dart
+  lib/logica/direccion.dart, estado_juego.dart, motor_juego.dart (Ronda 10) + test/motor_juego_test.dart
+  lib/presentation/juego_screen.dart y main.dart nuevo (al final)
